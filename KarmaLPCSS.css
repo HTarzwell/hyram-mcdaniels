@@ -1,0 +1,74 @@
+/* Navigation Section */
+html {
+  box-sizing: border-box;
+  }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.top-navigation .links {
+	float: right;
+	list-style-type: none;
+}
+.links .item {
+	padding: 0px 15px;
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+.links .active {
+	color: #4c5058;
+    font-weight: 600;
+}
+.links .item:hover {
+	color: black;
+}
+.introduction {
+	background-image: url('../startup-landing-page-clone/Images/first-background.jpg');
+	background-position: center bottom;
+	background-position-x: 50%;
+	background-position-y: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+	/* Typography Declaration */
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-family: "Roboto", sans-serif;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-family: "Roboto", sans-serif;
+}
+.introduction .big-button {
+	text-shadow: none;
+	text-align: center;
+	padding: 1rem 1.5rem;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #d54e23;
+    font-size: 1.125rem;
+    color: white;
+}
