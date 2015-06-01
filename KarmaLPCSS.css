@@ -7,6 +7,9 @@ html {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation .content {
 	width: 970px;
@@ -71,4 +74,20 @@ html {
     background-color: #d54e23;
     font-size: 1.125rem;
     color: white;
+}
+.devices {
+    width: 20%;
+    display: inline-block;
+    height: 0.1em;
+    padding: 10px;
+    text-align: center;
+}
+.cases {
+	margin-top: 7.5rem;
+	font-size: 2.125rem;
+	color: black;
+	text-align: center;
+	font-weight: 200;
+	font-family: "Roboto", sans-serif;
+	padding: 5px;
 }
